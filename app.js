@@ -88,7 +88,6 @@ function tooLow() {
 function saveGuessHistory(guess) {
   // *CODE GOES BELOW HERE *
   guesses.unshift(guess);
-  console.log(guesses)
 };
 
 function displayHistory() {
