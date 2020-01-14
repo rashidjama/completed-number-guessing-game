@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Number Guessing Game!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="display-5 p-3 mb-3 text-white bg-primary">Number Guessing Game!</h1>
+  <div class="game">
+    <h2 class="text-center font-wight-bold text-warning ">Game Time!</h2>
+    <input type="number" placeholder="Guess a number!" id="input" class="form-control form-control-lg mb-3">
+    <div class="result text-center">
+      <!--this is wherer result will be displayed-->
+    </div>
+      <button type="button" class="btn btn-lg btn-primary" id="checkMe">Check your guess!</button>
+      <button type="button" class="btn btn-lg btn-light" id="restart">Restart the game!</button>
+    <div class="history mt-3"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
